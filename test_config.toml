@@ -1,0 +1,20 @@
+##########################################################
+[common]
+##########################################################
+[common.deterministic]
+workspace = "/mnt/c/Users/emir-/Desktop/python_comparison_task/fcc/"
+data = "/mnt/c/Users/emir-/Desktop/python_comparison_task/fcc/test/deterministic/data"
+out = "/mnt/c/Users/emir-/Desktop/python_comparison_task/fcc/build/native"
+player = "/mnt/c/Users/emir-/Desktop/python_comparison_task/fcc/build/native/tools/host/scenario_player/scenario_player"
+fcs_config_path = "/mnt/c/Users/emir-/Desktop/python_comparison_task/fcc/configs/fcs_config.toml"
+
+filter = "adc1"
+pipeline = false
+sanitizer = false
+
+##########################################################
+[sitl]
+##########################################################
+[sitl.deterministic]
+sitl_bin = "/mnt/c/Users/emir-/Desktop/python_comparison_task/fcc/build/native/fcs/fcs"
+
